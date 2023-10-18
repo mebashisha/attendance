@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title></title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <section class="bg-gray-100 min-h-screen  flex items-center justify-center p-10">
+            <div class="bg-green-200 flex rounded-2xl shadow-lg  w-1/2 text-[#2D3825]"  >
+
+                <form method=""action="">
+                    <div>
+                        <h1 class="font-bold text-2xl p-5 text-[#2D3825] text-center">Student Registration</h1>
+                    </div>
+                    <div class="ml-20 px-1 ">
+                    <div>
+                        <p>Enrollment Number</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl" type="text" name="enroll" placeholder="Please enter your enrollment number" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Name</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl " type="text" name="name" placeholder="Please enter your name" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Phone Number</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl " type="number" name="phonenumber" placeholder="Please enter your phone number" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Email/Username</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl " type="email" name="email" placeholder="Please enter your email/username" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Address</p>
+                        <textarea class="p-2 w-96 outline-none bg-white-200 rounded-xl " name="address" placeholder="Please enter your address" required=""></textarea>
+                    </div>
+                    <div class="p-2" >
+                        <p  >Gender</p>
+                        female :<input class="" type="radio" name="gender"  value="female" />
+                        male  :<input type="radio" name="gender"  value="male" />
+                    </div>
+                    <div class="p-2">
+                        <p>Date Of Birth</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl" type="date" name="dob" required="">
+                    </div>
+                    <div class="p-2">   
+                        <p>Year Of Admission</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl" type="text" name="yoa" placeholder="Please enter year of admission" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Password</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl" type="password" name="password" placeholder="Please enter your password" required="">
+                    </div>
+                    <div class="p-2">   
+                        <p>Re-type Password</p>
+                        <input class="p-2 w-96 outline-none bg-white-200 rounded-xl" type="password" name="repassword" placeholder="Please re typed your password" required="">
+                    </div>
+                    <div class="p-2">
+                        <p>Please choose the course</p>
+                        <select  class="p-2 w-96 outline-none bg-white-200 rounded-xl" name="course" required="">
+                            <option value=""></option>
+                            <option value="1">BCA</option>
+                            <option value="2">BCOM</option>
+                            <option value="4">BA</option>
+                            <option value="3">BSC</option>
+                        </select>
+                    </div>
+                    <div class="p-2">
+                        <p>Please choose the semester</p>
+                        <select class="p-2 w-96 outline-none bg-white-200 rounded-xl" name="semester" required="">
+                            <option value=" "></option>
+                            <option value="1">I semester</option>
+                            <option value="2">II semester</option>
+                            <option value="3">III semester</option>
+                            <option value="4">IV semester</option>
+                            <option value="5">V semester</option>
+                            <option value="6">VI semester</option>
+                        </select>
+                    </div>
+                    <div class="p-3 ml-20"> 
+                        <button class="bg-[#2D3825] text-white w-48 p-2 rounded-xl " type="submit" name="ok" >submit</button>
+                    </div>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+</html>
