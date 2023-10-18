@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <section class="bg-gray-100 min-h-screen  flex items-center justify-center ">
+            <div class="bg-green-200 flex rounded-2xl shadow-lg max-w-3xl p-5">
+                <div class="sm:w-1/2 px-16 text-[#2D3825]">
+                    <h2 class="font-bold text-2xl p-2  text-[#2D3825] ">Login</h2>
+                    <form method="Post" action="../../php/login/login.php" class="flex flex-col gap-4 p-2">
+
+                        <input class="p-2 rounded-xl border" type="text" placeholder="username/email" name="username">
+
+                        <input class="p-2 rounded-xl border"type="password" name="password" placeholder="password">
+                        <select name="type" class="p-2 mt-2 rounded-xl border text-md text-[#2D3825]">
+                            <option value="">Type</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="admin">Admin</option>
+                            <option value="student">Student</option>
+                        </select>
+                        <button class="bg-[#2D3825] text-white py-2 rounded-xl" type="submit" name="ok" >login</button>
+                        <div class=" grid grid-cols-3 items-center text-grey-400 ">
+                            <hr class="border-gray-400">
+                            <p class="text-center">or</p>
+                            <hr class="border-gray-400">
+                        </div>
+                        <div class="text-[#2D3825]">
+                            <p >New registration?<a href="../registration/registration.html">click here</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-1/2 sm:block hidden">
+                    <img class="rounded-2xl py-2" src="attendance.jpg" alt="alt"/>
+
+
+                </div>
+
+            </div>
+
+        </section>
+    </body>
+</html>
